@@ -1,0 +1,76 @@
+main {
+  font-family: 'Raleway', sans-serif;
+  /* background-color: bisque; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.App {
+  background-color: aliceblue;
+  width: 25rem;
+  /* height: 10rem; */
+  border-radius: 10px;
+  padding: 4rem;
+}
+
+.fa-quote-left {
+  font-size: 2rem;
+  margin-right: 0.85rem;
+}
+
+.quote {
+  height: 60%;
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.author {
+  height: 40%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 400;
+}
+
+footer {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  font: 700 1rem/1rem 'Raleway', sans-serif;
+  border: none;
+  padding: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+span {
+  display: flex;
+
+}
+
+a:visited {
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+button i {
+  color: aliceblue;
+  font-size: 1rem;
+  min-width: 1rem;
+}
